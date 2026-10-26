@@ -1,0 +1,78 @@
+{
+  "input": "source/raw.mp4",
+  "duration": 62.0,
+  "video": {
+    "codec": "hevc",
+    "width": 3840,
+    "height": 2160,
+    "fps": 29.97002997002997,
+    "rotation": 0
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate": 48000,
+    "channels": 2
+  },
+  "loudness": {
+    "integrated_lufs": -23.8,
+    "true_peak_dbtp": -6.1,
+    "loudness_range_lu": 7.2
+  },
+  "silence_settings": {
+    "noise_db": -35,
+    "min_silence_s": 0.4
+  },
+  "silences": [
+    {
+      "start": 0.05,
+      "end": 0.37,
+      "duration": 0.32
+    },
+    {
+      "start": 4.36,
+      "end": 4.97,
+      "duration": 0.61
+    },
+    {
+      "start": 10.17,
+      "end": 10.97,
+      "duration": 0.8
+    },
+    {
+      "start": 14.78,
+      "end": 16.47,
+      "duration": 1.69
+    },
+    {
+      "start": 23.71,
+      "end": 28.47,
+      "duration": 4.76
+    },
+    {
+      "start": 35.33,
+      "end": 36.97,
+      "duration": 1.64
+    },
+    {
+      "start": 43.71,
+      "end": 44.47,
+      "duration": 0.76
+    },
+    {
+      "start": 53.21,
+      "end": 53.97,
+      "duration": 0.76
+    },
+    {
+      "start": 58.13,
+      "end": 59.17,
+      "duration": 1.04
+    },
+    {
+      "start": 61.2,
+      "end": 62.0,
+      "duration": 0.8
+    }
+  ],
+  "scene_changes": []
+}

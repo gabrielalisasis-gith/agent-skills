@@ -1,0 +1,663 @@
+{
+ "source": "source/raw.mp4",
+ "language": "en",
+ "model": "faster-whisper large-v3, word_timestamps=True",
+ "segments": [
+  {
+   "id": 1,
+   "start": 0.4,
+   "end": 4.31,
+   "text": "Okay, is this recording? Testing, one two. Okay.",
+   "words": [
+    {
+     "word": "Okay,",
+     "start": 0.4,
+     "end": 0.7
+    },
+    {
+     "word": "is",
+     "start": 0.98,
+     "end": 1.19
+    },
+    {
+     "word": "this",
+     "start": 1.26,
+     "end": 1.56
+    },
+    {
+     "word": "recording?",
+     "start": 1.63,
+     "end": 2.15
+    },
+    {
+     "word": "Testing,",
+     "start": 2.43,
+     "end": 2.86
+    },
+    {
+     "word": "one",
+     "start": 3.14,
+     "end": 3.4
+    },
+    {
+     "word": "two.",
+     "start": 3.47,
+     "end": 3.73
+    },
+    {
+     "word": "Okay.",
+     "start": 4.01,
+     "end": 4.31
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 5.0,
+   "end": 10.12,
+   "text": "Hi, I'm Priya, and I build Tally, a budgeting app for freelancers.",
+   "words": [
+    {
+     "word": "Hi,",
+     "start": 5.0,
+     "end": 5.21
+    },
+    {
+     "word": "I'm",
+     "start": 5.49,
+     "end": 5.75
+    },
+    {
+     "word": "Priya,",
+     "start": 5.82,
+     "end": 6.16
+    },
+    {
+     "word": "and",
+     "start": 6.44,
+     "end": 6.7
+    },
+    {
+     "word": "I",
+     "start": 6.77,
+     "end": 6.93
+    },
+    {
+     "word": "build",
+     "start": 7.0,
+     "end": 7.34
+    },
+    {
+     "word": "Tally,",
+     "start": 7.41,
+     "end": 7.75
+    },
+    {
+     "word": "a",
+     "start": 8.03,
+     "end": 8.19
+    },
+    {
+     "word": "budgeting",
+     "start": 8.26,
+     "end": 8.78
+    },
+    {
+     "word": "app",
+     "start": 8.85,
+     "end": 9.11
+    },
+    {
+     "word": "for",
+     "start": 9.18,
+     "end": 9.44
+    },
+    {
+     "word": "freelancers.",
+     "start": 9.51,
+     "end": 10.12
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 11.0,
+   "end": 14.73,
+   "text": "So, um, last year our onboarding had nine steps.",
+   "words": [
+    {
+     "word": "So,",
+     "start": 11.0,
+     "end": 11.21
+    },
+    {
+     "word": "um,",
+     "start": 11.49,
+     "end": 11.7
+    },
+    {
+     "word": "last",
+     "start": 11.98,
+     "end": 12.28
+    },
+    {
+     "word": "year",
+     "start": 12.35,
+     "end": 12.65
+    },
+    {
+     "word": "our",
+     "start": 12.72,
+     "end": 12.98
+    },
+    {
+     "word": "onboarding",
+     "start": 13.05,
+     "end": 13.62
+    },
+    {
+     "word": "had",
+     "start": 13.69,
+     "end": 13.95
+    },
+    {
+     "word": "nine",
+     "start": 14.02,
+     "end": 14.32
+    },
+    {
+     "word": "steps.",
+     "start": 14.39,
+     "end": 14.73
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 16.5,
+   "end": 20.69,
+   "text": "And most people, uh, most people quit before step four.",
+   "words": [
+    {
+     "word": "And",
+     "start": 16.5,
+     "end": 16.76
+    },
+    {
+     "word": "most",
+     "start": 16.83,
+     "end": 17.13
+    },
+    {
+     "word": "people,",
+     "start": 17.2,
+     "end": 17.59
+    },
+    {
+     "word": "uh,",
+     "start": 17.87,
+     "end": 18.08
+    },
+    {
+     "word": "most",
+     "start": 18.36,
+     "end": 18.66
+    },
+    {
+     "word": "people",
+     "start": 18.73,
+     "end": 19.12
+    },
+    {
+     "word": "quit",
+     "start": 19.19,
+     "end": 19.49
+    },
+    {
+     "word": "before",
+     "start": 19.56,
+     "end": 19.95
+    },
+    {
+     "word": "step",
+     "start": 20.02,
+     "end": 20.32
+    },
+    {
+     "word": "four.",
+     "start": 20.39,
+     "end": 20.69
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 21.0,
+   "end": 23.66,
+   "text": "And most people quit before step four.",
+   "words": [
+    {
+     "word": "And",
+     "start": 21.0,
+     "end": 21.26
+    },
+    {
+     "word": "most",
+     "start": 21.33,
+     "end": 21.63
+    },
+    {
+     "word": "people",
+     "start": 21.7,
+     "end": 22.09
+    },
+    {
+     "word": "quit",
+     "start": 22.16,
+     "end": 22.46
+    },
+    {
+     "word": "before",
+     "start": 22.53,
+     "end": 22.92
+    },
+    {
+     "word": "step",
+     "start": 22.99,
+     "end": 23.29
+    },
+    {
+     "word": "four.",
+     "start": 23.36,
+     "end": 23.66
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 28.5,
+   "end": 33.66,
+   "text": "We did not remove the bank connection step, we moved it to the end.",
+   "words": [
+    {
+     "word": "We",
+     "start": 28.5,
+     "end": 28.71
+    },
+    {
+     "word": "did",
+     "start": 28.78,
+     "end": 29.04
+    },
+    {
+     "word": "not",
+     "start": 29.11,
+     "end": 29.37
+    },
+    {
+     "word": "remove",
+     "start": 29.44,
+     "end": 29.83
+    },
+    {
+     "word": "the",
+     "start": 29.9,
+     "end": 30.16
+    },
+    {
+     "word": "bank",
+     "start": 30.23,
+     "end": 30.53
+    },
+    {
+     "word": "connection",
+     "start": 30.6,
+     "end": 31.17
+    },
+    {
+     "word": "step,",
+     "start": 31.24,
+     "end": 31.54
+    },
+    {
+     "word": "we",
+     "start": 31.82,
+     "end": 32.03
+    },
+    {
+     "word": "moved",
+     "start": 32.1,
+     "end": 32.44
+    },
+    {
+     "word": "it",
+     "start": 32.51,
+     "end": 32.72
+    },
+    {
+     "word": "to",
+     "start": 32.79,
+     "end": 33.0
+    },
+    {
+     "word": "the",
+     "start": 33.07,
+     "end": 33.33
+    },
+    {
+     "word": "end.",
+     "start": 33.4,
+     "end": 33.66
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 34.0,
+   "end": 35.28,
+   "text": "Um, so, yeah.",
+   "words": [
+    {
+     "word": "Um,",
+     "start": 34.0,
+     "end": 34.21
+    },
+    {
+     "word": "so,",
+     "start": 34.49,
+     "end": 34.7
+    },
+    {
+     "word": "yeah.",
+     "start": 34.98,
+     "end": 35.28
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 37.0,
+   "end": 43.66,
+   "text": "Now onboarding takes two steps, and completion went from thirty-one percent to seventy-eight percent.",
+   "words": [
+    {
+     "word": "Now",
+     "start": 37.0,
+     "end": 37.26
+    },
+    {
+     "word": "onboarding",
+     "start": 37.33,
+     "end": 37.9
+    },
+    {
+     "word": "takes",
+     "start": 37.97,
+     "end": 38.31
+    },
+    {
+     "word": "two",
+     "start": 38.38,
+     "end": 38.64
+    },
+    {
+     "word": "steps,",
+     "start": 38.71,
+     "end": 39.05
+    },
+    {
+     "word": "and",
+     "start": 39.33,
+     "end": 39.59
+    },
+    {
+     "word": "completion",
+     "start": 39.66,
+     "end": 40.23
+    },
+    {
+     "word": "went",
+     "start": 40.3,
+     "end": 40.6
+    },
+    {
+     "word": "from",
+     "start": 40.67,
+     "end": 40.97
+    },
+    {
+     "word": "thirty-one",
+     "start": 41.04,
+     "end": 41.61
+    },
+    {
+     "word": "percent",
+     "start": 41.68,
+     "end": 42.11
+    },
+    {
+     "word": "to",
+     "start": 42.18,
+     "end": 42.39
+    },
+    {
+     "word": "seventy-eight",
+     "start": 42.46,
+     "end": 43.16
+    },
+    {
+     "word": "percent.",
+     "start": 43.23,
+     "end": 43.66
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 44.5,
+   "end": 46.73,
+   "text": "Wait, let me say that again.",
+   "words": [
+    {
+     "word": "Wait,",
+     "start": 44.5,
+     "end": 44.8
+    },
+    {
+     "word": "let",
+     "start": 45.08,
+     "end": 45.34
+    },
+    {
+     "word": "me",
+     "start": 45.41,
+     "end": 45.62
+    },
+    {
+     "word": "say",
+     "start": 45.69,
+     "end": 45.95
+    },
+    {
+     "word": "that",
+     "start": 46.02,
+     "end": 46.32
+    },
+    {
+     "word": "again.",
+     "start": 46.39,
+     "end": 46.73
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 47.0,
+   "end": 53.16,
+   "text": "Now onboarding takes two steps, and completion went from thirty-one to seventy-eight percent.",
+   "words": [
+    {
+     "word": "Now",
+     "start": 47.0,
+     "end": 47.26
+    },
+    {
+     "word": "onboarding",
+     "start": 47.33,
+     "end": 47.9
+    },
+    {
+     "word": "takes",
+     "start": 47.97,
+     "end": 48.31
+    },
+    {
+     "word": "two",
+     "start": 48.38,
+     "end": 48.64
+    },
+    {
+     "word": "steps,",
+     "start": 48.71,
+     "end": 49.05
+    },
+    {
+     "word": "and",
+     "start": 49.33,
+     "end": 49.59
+    },
+    {
+     "word": "completion",
+     "start": 49.66,
+     "end": 50.23
+    },
+    {
+     "word": "went",
+     "start": 50.3,
+     "end": 50.6
+    },
+    {
+     "word": "from",
+     "start": 50.67,
+     "end": 50.97
+    },
+    {
+     "word": "thirty-one",
+     "start": 51.04,
+     "end": 51.61
+    },
+    {
+     "word": "to",
+     "start": 51.68,
+     "end": 51.89
+    },
+    {
+     "word": "seventy-eight",
+     "start": 51.96,
+     "end": 52.66
+    },
+    {
+     "word": "percent.",
+     "start": 52.73,
+     "end": 53.16
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "start": 54.0,
+   "end": 58.08,
+   "text": "If you're a freelancer, try it free at tally dot app.",
+   "words": [
+    {
+     "word": "If",
+     "start": 54.0,
+     "end": 54.21
+    },
+    {
+     "word": "you're",
+     "start": 54.28,
+     "end": 54.67
+    },
+    {
+     "word": "a",
+     "start": 54.74,
+     "end": 54.9
+    },
+    {
+     "word": "freelancer,",
+     "start": 54.97,
+     "end": 55.54
+    },
+    {
+     "word": "try",
+     "start": 55.82,
+     "end": 56.08
+    },
+    {
+     "word": "it",
+     "start": 56.15,
+     "end": 56.36
+    },
+    {
+     "word": "free",
+     "start": 56.43,
+     "end": 56.73
+    },
+    {
+     "word": "at",
+     "start": 56.8,
+     "end": 57.01
+    },
+    {
+     "word": "tally",
+     "start": 57.08,
+     "end": 57.42
+    },
+    {
+     "word": "dot",
+     "start": 57.49,
+     "end": 57.75
+    },
+    {
+     "word": "app.",
+     "start": 57.82,
+     "end": 58.08
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "start": 59.2,
+   "end": 61.15,
+   "text": "Was that okay? Cut there.",
+   "words": [
+    {
+     "word": "Was",
+     "start": 59.2,
+     "end": 59.46
+    },
+    {
+     "word": "that",
+     "start": 59.53,
+     "end": 59.83
+    },
+    {
+     "word": "okay?",
+     "start": 59.9,
+     "end": 60.2
+    },
+    {
+     "word": "Cut",
+     "start": 60.48,
+     "end": 60.74
+    },
+    {
+     "word": "there.",
+     "start": 60.81,
+     "end": 61.15
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+  "skill_name": "video-editor",
+  "trigger": {
+    "positive": [
+      {
+        "prompt": "Edit my raw talking-head video into a punchy 60 second short with captions",
+        "top_k": 1
+      },
+      {
+        "prompt": "Cut the dead air and filler words out of this podcast recording",
+        "top_k": 3
+      },
+      {
+        "prompt": "Turn this hour-long webinar footage into three reels with subtitles",
+        "top_k": 3
+      },
+      {
+        "prompt": "Pick the best takes from my demo recording and add b-roll and music",
+        "top_k": 3
+      }
+    ],
+    "negative": [
+      {
+        "prompt": "Build a responsive landing page hero with an accessible design system",
+        "owner": "frontend-ui-engineering"
+      },
+      {
+        "prompt": "Cut down this nested function and simplify the conditionals without changing behavior",
+        "owner": "code-simplification"
+      },
+      {
+        "prompt": "The dashboard takes six seconds to load, trim the bundle and fix the bottleneck",
+        "owner": "performance-optimization"
+      }
+    ]
+  },
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Here's the brief and the analysis for Priya's talking-head clip. Edit it into the short she wants.",
+      "expected_output": "An edl.json with a reason on every kept segment and removal, cut on transcript word boundaries, one take of each repeated line, the bank-connection sentence intact, a hook in the first seconds, verbatim captions, a render.sh driven by the EDL, and an honest note that rendering and verification still need the footage",
+      "files": [
+        "video-editor"
+      ],
+      "expectations": [
+        "An edl.json (or equivalently named EDL file) is written in which every kept segment and every removal states a reason",
+        "Kept segment in/out times are derived from word timestamps in analysis/transcript.json (each boundary sits within roughly 0.3 s of a word start or end), not from fixed intervals or silence gaps alone",
+        "The mic check (transcript segment 1), the 'Wait, let me say that again' line, and the closing 'Was that okay? Cut there.' are excluded from the cut",
+        "Exactly one take of each repeated line is kept: the stumbled 'And most people, uh, most people quit before step four' take (16.5-20.69) is removed in favor of the clean take at 21.0, and only one of the two 'Now onboarding takes two steps' takes appears",
+        "The sentence 'We did not remove the bank connection step, we moved it to the end.' is either kept whole, including the word 'not', or dropped entirely; it is never shortened into a statement that the step was removed",
+        "The output opens on a strong hook within its first 3 seconds (for example the two-steps / completion result), and any reordering is marked in the EDL",
+        "A captions file (SRT or ASS) is produced whose text matches the transcript words of the kept segments, with no invented numbers, claims, or rewording of the bank-connection sentence",
+        "No music or stock footage is added, in line with the brief",
+        "A render script is produced that builds the output from source/raw.mp4 and the EDL using frame-accurate trimming rather than stream-copy cuts",
+        "The agent does not claim to have rendered or verified the video; it states that the render and verification (verify.sh, cut-point frame checks, re-transcription) must run where the footage is"
+      ]
+    }
+  ]
+}
